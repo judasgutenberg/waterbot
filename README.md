@@ -11,3 +11,8 @@ making the basis for a "first person" remote piloted watercraft.
 The code for all this ends up in the root of /var/www/[whatever location your pan/tilt camera ended up in, often 'html'].
 
 To do:  make the rudder and propulsion systems proportional with slider UI interfaces and PWM.
+
+
+NOTES:  Is this right?:
+https://robotics.stackexchange.com/questions/9048/l293d-wont-turn-motor-backwards
+"The motor driver chip you state you are using, the L293D, is a "quadruple half H driver." This means that, instead of two full H circuits capable of driving a motor forward and reverse, you have four half H circuits, which are only capable of driving a motor in one direction."
