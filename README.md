@@ -18,3 +18,5 @@ https://robotics.stackexchange.com/questions/9048/l293d-wont-turn-motor-backward
 "The motor driver chip you state you are using, the L293D, is a "quadruple half H driver." This means that, instead of two full H circuits capable of driving a motor forward and reverse, you have four half H circuits, which are only capable of driving a motor in one direction."
 
 I'm pretty sure now that that commentator was wrong. My symptoms at the wires going to the motor is that when the H-bridge is is one direction, the voltage is -12 volts and in the other direction the voltage is 3 volts.  Perhaps the motor is drawing too much current?
+
+I measured the voltages coming off the L293D with no load and it was 9volts in one direction and 9volts in the other.  So perhaps the rudder system in the boat I am using is inherently incompatible with the L293D.
